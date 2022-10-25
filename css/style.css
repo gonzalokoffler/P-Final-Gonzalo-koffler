@@ -1,9 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  background-image: url(../Imagenes/background.jpg);
+  background-image: url(https://i.pinimg.com/564x/54/e5/97/54e597083d3aa069675fc8cc3f054cf0.jpg);
+
+}
+#titulo{
   
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Rincon Del Carpintero</title>
     <link rel="stylesheet" href="/css/style.ccs" />
-    <link rel="stylesheet" href="../Imagenes/" />
+    <link rel="stylesheet" href="./Imagenes/" />
     <link rel="stylesheet" href="css/fontello.css" />
     <link
       rel="shortcut icon"
@@ -19,7 +19,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body >
     <!--inicio top info-->
     <div class="top-info text-center">
       <span class="icon-location">Catamarca 1948, Perez, Santa Fe</span>
@@ -30,14 +30,15 @@
     <!--fin de top info-->
 
     <!--inicio Header-->
-
-    <h1 class="titulo text-center">Rincon del Carpintero</h1>
-
+    <header>
+      <h1 id="titulo text-center ">Rincon del Carpintero</h1>
+    </header>
+    
     <!--Fin Header-->
 
     <!--Inicio de Nav-->
 
-    <nav class="navbar navbar- navbar-primary bg-primary align-items-center" >
+    <nav class="navbar navbar- navbar-primary py-3 bg-primary align-items-center" >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Bienvenido</a>
         <button
@@ -45,14 +46,12 @@
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarsExampleXxl"
-          aria-controls="navbarsExampleXxl"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          
         >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarsExampleXxl">
-          <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html"
                 >Inicio</a
@@ -86,29 +85,33 @@
 
     <!--Inicio de Main-->
     <main class="container">
-      <div class="row" >        
-        <div class="col">
-          <div class="card" style="width:18rem;">
-            <img src="./Imagenes/estanteriabar.jpg" class="card-img-top" alt="...">
+      <div class="row text-center" >        
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <div class="card-1 bg-danger text-ligth img-thumbnail w-25%  " >
+            <img src="./Imagenes/estanteriabar.jpg" class="card-img-top img-fluid   mh d-lg-block" alt="...">
             <div class="card-body">
+              <h5 class="card-title">Título de la tarjeta</h5>
               <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
             </div>
           </div>
-          <div class="card"style="width:18rem;" >
-            <img src="./Imagenes/luztecho.jpg" class="card-img-top" alt="...">
+          <div class="card-2 bg-danger text-ligth img-thumbnail  " >
+            <img src="./Imagenes/luztecho.jpg" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
+              <h5 class="card-title">Título de la tarjeta</h5>
               <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
             </div>
           </div>
-          <div class="card"style="width:18rem;" >
-            <img src="./Imagenes/mesa1.jpg" class="card-img-top" alt="...">
+          <div class="card-3 bg-danger text-ligth img-thumbnail  "  >
+            <img src="./Imagenes/mesa1.jpg" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
+              <h5 class="card-title">Título de la tarjeta</h5>
               <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
             </div>
           </div>
-          <div class="card"style="width:18rem;" >
-            <img src="./Imagenes/paredtroncos.jpg" class="card-img-top" alt="...">
+          <div class="card-4 bg-danger text-ligth img-thumbnail  "  >
+            <img src="./Imagenes/paredtroncos.jpg" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
+              <h5 class="card-title">Título de la tarjeta</h5>
               <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
             </div>
           </div>
