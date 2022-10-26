@@ -183,7 +183,7 @@ footer {
 .gallery__title {
   position: absolute;
   bottom: 0;
-  color: aquamarine;
+  color: rgb(177, 173, 173);
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
   width: 100%;
   margin: 0;
@@ -198,3 +198,18 @@ footer {
 .gallery__item:nth-child(7) {
   grid-row-start: span 2;
 }
+.carousel-inner{
+  display: block; 
+  justify-content: space-evenly;  
+}
+.carousel-item{
+  justify-content: center;
+  text-align: center;
+} 
+.imagen-carousel{
+  height: 80vh;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  }
+  
