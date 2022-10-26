@@ -7,13 +7,14 @@
 }
 
 body {
-  background-image: url(https://i.pinimg.com/564x/54/e5/97/54e597083d3aa069675fc8cc3f054cf0.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  background-image: url(https://i.pinimg.com/564x/54/e5/97/54e597083d3aa069675fc8cc3f054cf0.jpg);
+  width: auto;
+  
 }
 .top-info {
-  height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -21,7 +22,6 @@ body {
   background: #656466;
 }
 header {
-  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -40,11 +40,61 @@ header {
 .navbar {
   background: grey;
 }
-.contenedor {
-  display: grid;
-  grid-template-columns: repeat(3, 33%);
+.navbar a {
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+  font-family: "tangerine", cursive;
 }
-
+.container{
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+}
+.card{
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1 px 10px rgba(0,0,0,0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.card:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  transform: translateY(-3%);
+}
+.card img{
+  width: 100%;
+  height:400px;
+}
+.card .contenido{
+ padding: 15px;
+ text-align: center;
+}
+.card .contenido p{
+  line-height: 1.5;
+  color:gray
+}
+.card .contenido h3{
+  font-size: 30px;
+  font-family: "tangerine" cursive;
+} 
+.card .contenido a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color:black;
+  border: 1px solid black;
+  border-radius: 4px ;
+  transition: all 400ms ease;
+}
+.card .contenido a:hover{
+  background: black;
+  color: white;
+}
 main .box1 h2 {
   background: rgb(233, 183, 183);
   font-family: "tangerine";
@@ -62,6 +112,8 @@ main .box1 img {
   height: 300px;
 }
 .box1 {
+  margin-top: 20px;
+  background: #000;
   display: block;
   width: 300px;
   justify-content: center;
@@ -103,9 +155,46 @@ footer .titulo-de-pie-de-pagina {
 .icon:hover {
   color: red;
 }
+
 footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  background: rgb(0, 0, 0);
+  height: 15%;
   color: aliceblue;
-  background: #1a191b;
+}
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  padding: 20px;
+  grid-gap: 10px;
+}
+.gallery__item {
+  position: relative;
+}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-
+.gallery__title {
+  position: absolute;
+  bottom: 0;
+  color: aquamarine;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+.gallery__item:nth-child(1) {
+  grid-column-start: span 2;
+}
+.gallery__item:nth-child(8) {
+  grid-row-start: span 2;
+}
+.gallery__item:nth-child(7) {
+  grid-row-start: span 2;
+}
