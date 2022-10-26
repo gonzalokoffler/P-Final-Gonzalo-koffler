@@ -11,8 +11,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-image: url(https://i.pinimg.com/564x/54/e5/97/54e597083d3aa069675fc8cc3f054cf0.jpg);
-  width: auto;
-  
+  width: auto;  
 }
 .top-info {
   display: flex;
@@ -66,7 +65,7 @@ header {
   transform: translateY(-3%);
 }
 .card img{
-  width: 100%;
+  width: 80%;
   height:400px;
 }
 .card .contenido{
@@ -119,23 +118,6 @@ main .box1 img {
   justify-content: center;
   text-align: center;
 }
-.formulario form {
-  padding: 10px 20px;
-  width: 400px;
-  height: auto;
-  margin: auto;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: "tangerine";
-  overflow: hidden;
-}
-form h2 {
-  color: red;
-  text-align: center;
-  font-size: 50px;
-}
 footer .titulo-de-pie-de-pagina {
   text-align: center;
   color: #707576;
@@ -155,7 +137,6 @@ footer .titulo-de-pie-de-pagina {
 .icon:hover {
   color: red;
 }
-
 footer {
   margin-top: auto;
   display: flex;
@@ -179,7 +160,6 @@ footer {
   height: 100%;
   object-fit: cover;
 }
-
 .gallery__title {
   position: absolute;
   bottom: 0;
@@ -199,7 +179,8 @@ footer {
   text-align: center;
 } 
 .imagen-carousel{
-  height: 80vh;
+  width: 70%;
+  height: 70%;
   margin: 10px;
   border: 1px solid black;
   border-radius: 4px;
