@@ -47,12 +47,12 @@ header {
   font-family: "tangerine", cursive;
 }
 .container{
-  width: 100%;
   display: flex;
-  max-width: 1100px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .card{
-  width: 100%;
+  width: 350px;
   margin: 20px;
   border-radius: 6px;
   overflow: hidden;
@@ -183,7 +183,7 @@ footer {
 .gallery__title {
   position: absolute;
   bottom: 0;
-  color: rgb(177, 173, 173);
+  color: aquamarine;
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
   width: 100%;
   margin: 0;
