@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "top-info";
+@import "body";
+@import "header";
+@import "nav";
+@import "main-inicio";
+@import "main-rincon-carousel";
+@import "main-servicio";
+@import "main-trabajo";
+@import "main-contacto";
+@import "footer"

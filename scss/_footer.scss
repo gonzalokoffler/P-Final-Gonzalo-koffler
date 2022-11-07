@@ -1,0 +1,25 @@
+footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  background: rgb(0, 0, 0);
+  height: 15%;
+  color: aliceblue;
+
+  .titulo-de-pie-de-pagina {
+    text-align: center;
+    color: #707576;
+  }
+}
+.redes-sociales {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: beige;
+
+    &:hover {
+      color: red;
+    }
+  }
+}
