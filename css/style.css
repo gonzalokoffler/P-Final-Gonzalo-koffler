@@ -99,10 +99,6 @@ header h1 {
   text-align: center;
 }
 .carousel-inner .carousel-item .imagen-carousel {
-  width: 75%;
-  height: 75%;
-  justify-content: center;
-  margin: 10px;
   border: 1px solid rgb(38, 35, 35);
   border-radius: 4px;
 }
@@ -112,29 +108,48 @@ h5 {
   font-size: 30px;
 }
 
+.slide {
+  margin-top: 30px;
+}
+
+.slide img {
+  width: 60%;
+  height: 60vh;
+}
+
 .gallery-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-auto-rows: 450px;
-  padding: 20px;
+  padding: 60px;
   grid-gap: 40px;
-}
-.gallery-container .gallery__item {
-  position: relative;
 }
 .gallery-container .gallery__item .gallery__img {
   width: 100%;
   height: 90%;
-  object-fit: cover;
+  border-radius: 35px;
 }
-.gallery-container .gallery__item .gallery__img .gallery__title {
-  position: absolute;
-  bottom: 0;
-  color: aquamarine;
-  background: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));
-  width: 90%;
-  margin: 0;
-  padding: 10px;
+.gallery-container .gallery__item .gallery__img:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5%);
+}
+
+.formulario form {
+  padding: 10px 20px;
+  width: 400px;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "tangerine";
+  overflow: hidden;
+}
+.formulario form h2 {
+  color: red;
+  text-align: center;
+  font-size: 50px;
 }
 
 footer {
