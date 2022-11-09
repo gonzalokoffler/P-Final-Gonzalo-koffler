@@ -113,7 +113,7 @@ h5 {
 }
 
 .slide img {
-  width: 60%;
+  max-width: 60%;
   height: 60vh;
 }
 
