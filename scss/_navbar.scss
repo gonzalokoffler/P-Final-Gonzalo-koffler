@@ -7,5 +7,10 @@
     color:map-get($color-text , text-3 );
     font-size: 30px;
     font-family: "tangerine", cursive;
+   
   }
+}
+
+.navbar-toggler:hover{
+  color: map-get($color-text , text-3 );
 }

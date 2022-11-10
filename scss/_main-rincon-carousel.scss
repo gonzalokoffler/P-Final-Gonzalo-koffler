@@ -8,7 +8,7 @@
     
     
     .imagen-carousel {      
-    border: 1px solid rgb(38, 35, 35);
+      border: map-get($bordes , borde-1);
     border-radius: 4px;
   }
   }
