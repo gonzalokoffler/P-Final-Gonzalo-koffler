@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(https://i.pinimg.com/564x/54/e5/97/54e597083d3aa069675fc8cc3f054cf0.jpg);
+  color: rgb(64, 64, 87);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: auto;
+}
+
 .top-info {
   display: flex;
   flex-direction: row;
@@ -15,17 +24,8 @@
 .top-info .icon-location,
 .top-info .icon-phone,
 .top-info .icon-email {
-  color: rgb(15, 14, 14);
+  color: black;
   height: 30px;
-}
-
-body {
-  color: rgb(64, 64, 87);
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-image: url(https://i.pinimg.com/564x/54/e5/97/54e597083d3aa069675fc8cc3f054cf0.jpg);
-  width: auto;
 }
 
 header {
@@ -44,7 +44,7 @@ header h1 {
 }
 .navbar a {
   text-decoration: none;
-  color: #000;
+  color: white;
   font-size: 30px;
   font-family: "tangerine", cursive;
 }
@@ -123,6 +123,7 @@ h5 {
   grid-auto-rows: 450px;
   padding: 60px;
   grid-gap: 40px;
+  justify-content: center;
 }
 .gallery-container .gallery__item .gallery__img {
   width: 100%;
@@ -135,13 +136,13 @@ h5 {
 }
 
 .formulario form {
+  display: flex;
+  flex-direction: column;
   padding: 10px 20px;
   width: 400px;
   height: auto;
   margin: auto;
   margin-top: 20px;
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
   font-family: "tangerine";
   overflow: hidden;
@@ -153,12 +154,12 @@ h5 {
 }
 
 footer {
-  margin-top: auto;
   display: flex;
   flex-direction: column;
+  margin-top: auto;
   background: rgb(0, 0, 0);
   height: 15%;
-  color: aliceblue;
+  color: white;
 }
 footer .titulo-de-pie-de-pagina {
   text-align: center;

@@ -4,8 +4,7 @@
     
     
     .carousel-item {
-    justify-content: center;
-    text-align: center;
+    @include center_center;
     
     
     .imagen-carousel {      
@@ -16,7 +15,7 @@
   }
 
   h5{
-    color:rgb(7, 139, 42) ;
+    color:map-get($color-text , text-4 );
     font-size: 30px;
     
    

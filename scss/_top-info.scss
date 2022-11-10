@@ -8,7 +8,7 @@
   .icon-location,
   .icon-phone,
   .icon-email {
-    color: rgb(15, 14, 14);
+    color:map-get($color-text ,text-2 );
     height: 30px;
   }
 }

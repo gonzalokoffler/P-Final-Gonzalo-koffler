@@ -4,7 +4,7 @@
 
   a {
     text-decoration: none;
-    color: #000;
+    color:map-get($color-text , text-3 );
     font-size: 30px;
     font-family: "tangerine", cursive;
   }

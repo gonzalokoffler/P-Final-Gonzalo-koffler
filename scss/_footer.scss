@@ -1,10 +1,10 @@
 footer {
+  @include flex-colum;
   margin-top: auto;
-  display: flex;
-  flex-direction: column;
+  
   background: rgb(0, 0, 0);
   height: 15%;
-  color: aliceblue;
+  color:map-get($color-text , text-3   );
 
   .titulo-de-pie-de-pagina {
     text-align: center;
@@ -19,7 +19,7 @@ footer {
     color: beige;
 
     &:hover {
-      color: red;
+      color: map-get($color-text , text-7 );
     }
   }
 }

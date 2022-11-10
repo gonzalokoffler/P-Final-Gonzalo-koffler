@@ -1,17 +1,16 @@
 .formulario form {
+  @include flex-colum;
     padding: 10px 20px;
     width: 400px;
     height: auto;
     margin: auto;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
+    margin-top: 20px;   
     justify-content: space-between;
     font-family: "tangerine";
     overflow: hidden;
 
    h2 {
-        color: red;
+        color: map-get($color-text , text-7);
         text-align: center;
         font-size: 50px;
       }
